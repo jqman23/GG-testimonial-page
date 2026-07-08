@@ -64,7 +64,7 @@ button {
   position: absolute;
   z-index: 2;
   top: clamp(18px, 3vw, 32px);
-  right: clamp(18px, 3vw, 34px);
+  right: clamp(12px, 2vw, 22px);
   width: clamp(96px, 15vw, 170px);
   max-height: 76px;
   object-fit: contain;
@@ -156,7 +156,7 @@ blockquote {
 
   .event-logo {
     top: 18px;
-    right: 18px;
+    right: 12px;
     width: 92px;
     max-height: 54px;
   }
