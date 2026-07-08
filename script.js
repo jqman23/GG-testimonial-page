@@ -1,8 +1,6 @@
 const grid = document.querySelector("#testimonial-grid");
 const quote = document.querySelector("#spotlight-quote");
 const meta = document.querySelector("#spotlight-meta");
-const previousButton = document.querySelector("#previous-testimonial");
-const nextButton = document.querySelector("#next-testimonial");
 
 let testimonials = [];
 let activeIndex = 0;
@@ -79,17 +77,6 @@ function renderPage() {
   renderGrid();
   restartRotation();
 }
-
-previousButton.addEventListener("click", () => {
-  activeIndex = (activeIndex - 1 + testimonials.length) % testimonials.length;
-  renderSpotlight();
-  restartRotation();
-});
-
-nextButton.addEventListener("click", () => {
-  showNextReflection();
-  restartRotation();
-});
 
 async function init() {
   const response = await fetch("data/testimonials.json");
