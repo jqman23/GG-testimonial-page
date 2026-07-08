@@ -5,7 +5,7 @@ const spotlight = document.querySelector(".spotlight");
 let testimonials = [];
 let activeIndex = 0;
 let rotationTimer;
-const rotationDelay = 3000;
+const rotationDelay = 5000;
 
 function contextParts(item, detail = "spotlight") {
   const parts =
