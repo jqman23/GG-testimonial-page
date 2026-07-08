@@ -1,0 +1,14 @@
+{
+  "name": "gg-testimonial-page",
+  "version": "1.0.0",
+  "description": "Static Global Gathering testimonial widget built from 2022-2025 feedback.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node serve.js",
+    "test": "node --check script.js && node --check serve.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
