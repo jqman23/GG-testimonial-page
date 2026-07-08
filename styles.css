@@ -44,68 +44,7 @@ button {
 
 .testimonial-widget {
   display: grid;
-  gap: 28px;
-}
-
-.intro {
-  max-width: 880px;
-}
-
-.eyebrow {
-  margin: 0 0 12px;
-  color: var(--gg-earth-red);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-}
-
-h1 {
-  max-width: 900px;
-  margin: 0;
-  font-size: clamp(2.4rem, 5.5vw, 5.8rem);
-  font-weight: 600;
-  line-height: 0.96;
-  letter-spacing: -0.05em;
-}
-
-.lede {
-  max-width: 760px;
-  margin: 20px 0 0;
-  color: var(--gg-muted);
-  font-size: 1.13rem;
-  line-height: 1.7;
-}
-
-.brand-thread {
-  display: flex;
-  gap: 8px;
-  margin-top: 26px;
-}
-
-.brand-thread span {
-  height: 6px;
-  border-radius: 999px;
-}
-
-.brand-thread span:nth-child(1) {
-  width: 80px;
-  background: var(--gg-earth-red);
-}
-
-.brand-thread span:nth-child(2) {
-  width: 44px;
-  background: var(--gg-amber);
-}
-
-.brand-thread span:nth-child(3) {
-  width: 64px;
-  background: var(--gg-teal);
-}
-
-.brand-thread span:nth-child(4) {
-  width: 36px;
-  background: var(--gg-sage);
+  gap: 0;
 }
 
 .spotlight {
