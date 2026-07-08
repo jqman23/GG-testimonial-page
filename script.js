@@ -7,6 +7,11 @@ let activeIndex = 0;
 let rotationTimer;
 const rotationDelay = 5000;
 
+function postWidgetHeight() {
+  const height = Math.ceil(document.documentElement.scrollHeight);
+  window.parent.postMessage({ ggWidgetHeight: height }, "*");
+}
+
 function contextParts(item, detail = "spotlight") {
   const parts =
     detail === "card"
@@ -27,6 +32,7 @@ function renderSpotlight() {
   }
   quote.textContent = quoteText;
   meta.textContent = contextParts(item).join(" · ");
+  window.requestAnimationFrame(postWidgetHeight);
 }
 
 function showNextReflection() {
@@ -50,9 +56,14 @@ async function init() {
   const response = await fetch("data/testimonials.json");
   testimonials = await response.json();
   renderPage();
+  postWidgetHeight();
 }
 
 init().catch(() => {
   quote.textContent = "Reflections are unavailable right now.";
   meta.textContent = "Please try again after the page reloads.";
+  postWidgetHeight();
 });
+
+window.addEventListener("load", postWidgetHeight);
+window.addEventListener("resize", postWidgetHeight);
