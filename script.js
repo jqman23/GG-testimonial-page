@@ -8,6 +8,8 @@ const filterButtons = document.querySelectorAll(".filter-button");
 let testimonials = [];
 let activeFilter = "all";
 let activeIndex = 0;
+let rotationTimer;
+const rotationDelay = 3000;
 
 function visibleTestimonials() {
   return activeFilter === "all"
@@ -29,6 +31,18 @@ function renderSpotlight() {
   const item = visible[activeIndex % visible.length];
   quote.textContent = item.isExcerpt ? `${item.quote} ...` : item.quote;
   meta.textContent = contextParts(item).join(" · ");
+}
+
+function showNextReflection() {
+  const visible = visibleTestimonials();
+  if (!visible.length) return;
+  activeIndex = (activeIndex + 1) % visible.length;
+  renderSpotlight();
+}
+
+function restartRotation() {
+  window.clearInterval(rotationTimer);
+  rotationTimer = window.setInterval(showNextReflection, rotationDelay);
 }
 
 function cardClass(item) {
@@ -57,6 +71,7 @@ function renderGrid() {
     const selectCard = () => {
       activeIndex = index;
       renderSpotlight();
+      restartRotation();
       window.scrollTo({ top: 0, behavior: "smooth" });
     };
     card.addEventListener("click", selectCard);
@@ -77,18 +92,19 @@ function setFilter(filter) {
   });
   renderSpotlight();
   renderGrid();
+  restartRotation();
 }
 
 previousButton.addEventListener("click", () => {
   const visible = visibleTestimonials();
   activeIndex = (activeIndex - 1 + visible.length) % visible.length;
   renderSpotlight();
+  restartRotation();
 });
 
 nextButton.addEventListener("click", () => {
-  const visible = visibleTestimonials();
-  activeIndex = (activeIndex + 1) % visible.length;
-  renderSpotlight();
+  showNextReflection();
+  restartRotation();
 });
 
 filterButtons.forEach((button) => {
