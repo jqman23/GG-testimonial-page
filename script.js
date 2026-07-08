@@ -1,4 +1,3 @@
-const grid = document.querySelector("#testimonial-grid");
 const quote = document.querySelector("#spotlight-quote");
 const meta = document.querySelector("#spotlight-meta");
 
@@ -33,48 +32,9 @@ function restartRotation() {
   rotationTimer = window.setInterval(showNextReflection, rotationDelay);
 }
 
-function cardClass(item) {
-  return ["testimonial-card", item.strength ? `is-${item.strength}` : ""]
-    .filter(Boolean)
-    .join(" ");
-}
-
-function renderGrid() {
-  grid.innerHTML = testimonials
-    .map(
-      (item) => `
-        <article class="${cardClass(item)}" tabindex="0">
-          <p>“${item.isExcerpt ? `${item.quote} ...` : item.quote}”</p>
-          <div class="card-meta">
-            <span class="year-pill">${item.year}</span>
-            <span class="card-context">${contextParts(item, "card").join(" · ")}</span>
-          </div>
-        </article>
-      `,
-    )
-    .join("");
-
-  document.querySelectorAll(".testimonial-card").forEach((card, index) => {
-    const selectCard = () => {
-      activeIndex = index;
-      renderSpotlight();
-      restartRotation();
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    };
-    card.addEventListener("click", selectCard);
-    card.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") {
-        event.preventDefault();
-        selectCard();
-      }
-    });
-  });
-}
-
 function renderPage() {
   activeIndex = 0;
   renderSpotlight();
-  renderGrid();
   restartRotation();
 }
 

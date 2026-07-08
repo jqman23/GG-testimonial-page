@@ -1,6 +1,6 @@
 # Global Gathering Testimonial Page
 
-A responsive static page presenting participant reflections from positive, general Global Gathering feedback shared between 2022 and 2025.
+A responsive static page presenting participant reflections from positive, general Global Gathering feedback.
 
 ## Files
 
