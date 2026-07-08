@@ -9,39 +9,48 @@
   <body>
     <main class="page-shell">
       <section class="testimonial-widget" aria-labelledby="widget-title">
-        <div class="intro">
-          <p class="eyebrow">2022-2025 attendee feedback</p>
-          <h1 id="widget-title">Global Gathering voices</h1>
+        <header class="intro">
+          <p class="eyebrow">Participant reflections · 2022-2025</p>
+          <h1 id="widget-title">Voices from the Gathering</h1>
           <p class="lede">
-            Positive reflections from participants who valued the shared learning,
-            international perspective, and sense of community.
+            Across four years of feedback, participants described moments of connection,
+            courage, international perspective, and renewed possibility. These reflections
+            offer a glimpse of what people carried with them and what continues to shape
+            the future of child, youth, family, and community well-being.
           </p>
-        </div>
+          <div class="brand-thread" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </header>
 
-        <div class="controls" aria-label="Filter testimonials by year">
-          <button class="filter-button is-active" type="button" data-filter="all">All</button>
+        <nav class="controls" aria-label="Filter reflections by year">
+          <button class="filter-button is-active" type="button" data-filter="all">All years</button>
           <button class="filter-button" type="button" data-filter="2022">2022</button>
           <button class="filter-button" type="button" data-filter="2023">2023</button>
           <button class="filter-button" type="button" data-filter="2024">2024</button>
           <button class="filter-button" type="button" data-filter="2025">2025</button>
-        </div>
+        </nav>
 
-        <div class="spotlight" aria-live="polite">
-          <p class="quote-mark" aria-hidden="true">"</p>
+        <section class="spotlight" aria-live="polite">
+          <p class="quote-mark" aria-hidden="true">“</p>
           <blockquote id="spotlight-quote"></blockquote>
           <div class="spotlight-footer">
             <p id="spotlight-meta"></p>
-            <div class="nav-controls" aria-label="Featured testimonial controls">
-              <button id="previous-testimonial" type="button" aria-label="Previous testimonial">Prev</button>
-              <button id="next-testimonial" type="button" aria-label="Next testimonial">Next</button>
+            <div class="nav-controls" aria-label="Featured reflection controls">
+              <button id="previous-testimonial" type="button" aria-label="Previous reflection">
+                Previous reflection
+              </button>
+              <button id="next-testimonial" type="button" aria-label="Next reflection">
+                Next reflection
+              </button>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div id="testimonial-grid" class="testimonial-grid"></div>
+        <section id="testimonial-grid" class="testimonial-grid" aria-label="Participant reflections"></section>
 
         <p class="source-note">
-          Curated from positive, general event feedback files for 2022, 2023, 2024, and 2025.
+          These reflections come from positive post-event feedback shared by participants between 2022 and 2025.
         </p>
       </section>
     </main>

@@ -1,13 +1,13 @@
-# Global Gathering Testimonial Widget
+# Global Gathering Testimonial Page
 
-A responsive static testimonial page built from positive, general attendee feedback in the provided 2022-2025 files.
+A responsive static page presenting participant reflections from positive, general Global Gathering feedback shared between 2022 and 2025.
 
 ## Files
 
 - `index.html` - page markup
 - `styles.css` - responsive widget styling
-- `script.js` - filtering, featured testimonial controls, and testimonial data
-- `data/testimonials.json` - reviewed source data used by the widget
+- `script.js` - filtering and featured reflection controls
+- `data/testimonials.json` - reviewed source data loaded by the page
 
 ## Run Locally
 
