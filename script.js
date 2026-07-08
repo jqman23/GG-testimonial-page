@@ -8,7 +8,7 @@ let rotationTimer;
 const rotationDelay = 5000;
 
 function postWidgetHeight() {
-  const height = Math.ceil(document.documentElement.scrollHeight);
+  const height = Math.ceil(spotlight.getBoundingClientRect().height);
   window.parent.postMessage({ ggWidgetHeight: height }, "*");
 }
 
