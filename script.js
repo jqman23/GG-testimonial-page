@@ -3,19 +3,11 @@ const quote = document.querySelector("#spotlight-quote");
 const meta = document.querySelector("#spotlight-meta");
 const previousButton = document.querySelector("#previous-testimonial");
 const nextButton = document.querySelector("#next-testimonial");
-const filterButtons = document.querySelectorAll(".filter-button");
 
 let testimonials = [];
-let activeFilter = "all";
 let activeIndex = 0;
 let rotationTimer;
 const rotationDelay = 3000;
-
-function visibleTestimonials() {
-  return activeFilter === "all"
-    ? testimonials
-    : testimonials.filter((item) => item.year === activeFilter);
-}
 
 function contextParts(item, detail = "spotlight") {
   const parts =
@@ -26,17 +18,15 @@ function contextParts(item, detail = "spotlight") {
 }
 
 function renderSpotlight() {
-  const visible = visibleTestimonials();
-  if (!visible.length) return;
-  const item = visible[activeIndex % visible.length];
+  if (!testimonials.length) return;
+  const item = testimonials[activeIndex % testimonials.length];
   quote.textContent = item.isExcerpt ? `${item.quote} ...` : item.quote;
   meta.textContent = contextParts(item).join(" · ");
 }
 
 function showNextReflection() {
-  const visible = visibleTestimonials();
-  if (!visible.length) return;
-  activeIndex = (activeIndex + 1) % visible.length;
+  if (!testimonials.length) return;
+  activeIndex = (activeIndex + 1) % testimonials.length;
   renderSpotlight();
 }
 
@@ -52,8 +42,7 @@ function cardClass(item) {
 }
 
 function renderGrid() {
-  const visible = visibleTestimonials();
-  grid.innerHTML = visible
+  grid.innerHTML = testimonials
     .map(
       (item) => `
         <article class="${cardClass(item)}" tabindex="0">
@@ -84,20 +73,15 @@ function renderGrid() {
   });
 }
 
-function setFilter(filter) {
-  activeFilter = filter;
+function renderPage() {
   activeIndex = 0;
-  filterButtons.forEach((button) => {
-    button.classList.toggle("is-active", button.dataset.filter === filter);
-  });
   renderSpotlight();
   renderGrid();
   restartRotation();
 }
 
 previousButton.addEventListener("click", () => {
-  const visible = visibleTestimonials();
-  activeIndex = (activeIndex - 1 + visible.length) % visible.length;
+  activeIndex = (activeIndex - 1 + testimonials.length) % testimonials.length;
   renderSpotlight();
   restartRotation();
 });
@@ -107,14 +91,10 @@ nextButton.addEventListener("click", () => {
   restartRotation();
 });
 
-filterButtons.forEach((button) => {
-  button.addEventListener("click", () => setFilter(button.dataset.filter));
-});
-
 async function init() {
   const response = await fetch("data/testimonials.json");
   testimonials = await response.json();
-  setFilter("all");
+  renderPage();
 }
 
 init().catch(() => {

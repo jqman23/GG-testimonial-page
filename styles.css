@@ -108,19 +108,6 @@ h1 {
   background: var(--gg-sage);
 }
 
-.controls {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  width: fit-content;
-  padding: 8px;
-  border: 1px solid rgba(18, 35, 69, 0.1);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.56);
-  backdrop-filter: blur(8px);
-}
-
-.filter-button,
 .nav-controls button {
   border: 0;
   border-radius: 999px;
@@ -130,22 +117,6 @@ h1 {
     background 180ms ease,
     color 180ms ease,
     transform 180ms ease;
-}
-
-.filter-button {
-  background: transparent;
-  color: var(--gg-muted);
-  padding: 10px 18px;
-}
-
-.filter-button:hover,
-.nav-controls button:hover {
-  transform: translateY(-1px);
-}
-
-.filter-button.is-active {
-  background: var(--gg-navy);
-  color: #fff;
 }
 
 .spotlight {
@@ -350,15 +321,6 @@ blockquote {
   .page-shell {
     width: min(100% - 24px, 1180px);
     padding: 32px 0;
-  }
-
-  .controls {
-    width: 100%;
-    border-radius: 24px;
-  }
-
-  .filter-button {
-    flex: 1;
   }
 
   .testimonial-grid {

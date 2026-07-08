@@ -6,7 +6,7 @@ A responsive static page presenting participant reflections from positive, gener
 
 - `index.html` - page markup
 - `styles.css` - responsive widget styling
-- `script.js` - filtering and featured reflection controls
+- `script.js` - featured reflection controls and auto-rotation
 - `data/testimonials.json` - reviewed source data loaded by the page
 
 ## Run Locally
