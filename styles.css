@@ -6,7 +6,7 @@
   --gg-earth-red: #b04239;
   --gg-sage: #bebe7b;
   --gg-teal: #187089;
-  --gg-sand: #fee3b7;
+  --gg-soft-blue: #eef6f8;
   --gg-amber: #f98b2c;
   --gg-ink: #122345;
   --gg-muted: rgba(18, 35, 69, 0.72);
@@ -25,10 +25,10 @@ body {
   margin: 0;
   min-height: 100vh;
   background:
-    radial-gradient(circle at 8% 10%, rgba(249, 139, 44, 0.18), transparent 26rem),
-    radial-gradient(circle at 92% 18%, rgba(24, 112, 137, 0.16), transparent 28rem),
-    radial-gradient(circle at 50% 100%, rgba(190, 190, 123, 0.18), transparent 30rem),
-    #fff8ec;
+    radial-gradient(circle at 12% 8%, rgba(24, 112, 137, 0.12), transparent 26rem),
+    radial-gradient(circle at 92% 18%, rgba(18, 35, 69, 0.08), transparent 28rem),
+    radial-gradient(circle at 50% 100%, rgba(190, 190, 123, 0.12), transparent 30rem),
+    #ffffff;
   color: var(--gg-ink);
 }
 
@@ -73,7 +73,7 @@ button {
 
 .quote-mark {
   margin: 0;
-  color: var(--gg-sand);
+  color: var(--gg-soft-blue);
   font-family: Georgia, serif;
   font-size: clamp(4rem, 8vw, 7rem);
   line-height: 0.65;
