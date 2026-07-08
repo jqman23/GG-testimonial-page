@@ -1,5 +1,17 @@
 [
   {
+    "year": "2023",
+    "quote": "I am not sure I can pick just one thing I love about this gathering. This was absolutely the most valuable and inspiring conference I have attended in terms of content, virtual or in-person, in my 25+ years in the field!",
+    "role": "Trainer/Coach/Technical assistance provider",
+    "organizationType": "Technical assistance provider",
+    "region": "United States",
+    "experience": "11+ years",
+    "presenter": "No",
+    "source": "2023 event feedback.xlsx",
+    "isExcerpt": true,
+    "strength": "featured"
+  },
+  {
     "year": "2022",
     "quote": "Oh my - I love this gathering! I love hearing from the global community that we shared the passion, recognized racist systems and institutions, and were willing to evolve in child welfare. We were working towards similar goals.",
     "role": "Trainer/Coach/Technical assistance provider",
@@ -24,39 +36,15 @@
     "strength": "featured"
   },
   {
-    "year": "2022",
-    "quote": "I enjoy meeting and hearing from people from all over the world and learning about their work.",
-    "role": "Child welfare administrator",
-    "organizationType": "County/State/Provincial child welfare agency",
+    "year": "2024",
+    "quote": "There were so many positive experiences. Parents from around the world uniting was very impactful, and hearing from courageous women who made their way through what must have felt impossible was powerful.",
+    "role": "Administrator of community service agency",
+    "organizationType": "Other (please specify)",
     "region": "Canada",
     "experience": "11+ years",
     "presenter": "No",
-    "source": "2022 feedback.xlsx",
+    "source": "2024 event feedback.xlsx",
     "isExcerpt": false,
-    "strength": "standard"
-  },
-  {
-    "year": "2022",
-    "quote": "I enjoy listening to people from across the world speak about their experiences in other countries. It is a wonderful way to connect.",
-    "role": "Child welfare practitioner",
-    "organizationType": "County/State/Provincial child welfare agency",
-    "region": "United States",
-    "experience": "Less than 1 year",
-    "presenter": "No",
-    "source": "2022 feedback.xlsx",
-    "isExcerpt": false,
-    "strength": "standard"
-  },
-  {
-    "year": "2023",
-    "quote": "I am not sure I can pick just one thing I love about this gathering. This was absolutely the most valuable and inspiring conference I have attended in terms of content, virtual or in-person, in my 25+ years in the field!",
-    "role": "Trainer/Coach/Technical assistance provider",
-    "organizationType": "Technical assistance provider",
-    "region": "United States",
-    "experience": "11+ years",
-    "presenter": "No",
-    "source": "2023 event feedback.xlsx",
-    "isExcerpt": true,
     "strength": "featured"
   },
   {
@@ -72,16 +60,40 @@
     "strength": "standard"
   },
   {
-    "year": "2023",
-    "quote": "I had such fun and learned a great deal at this conference. The workshops were excellent, the presenters were professional and informed, and I loved the gathering overall.",
-    "role": "Child welfare practitioner, Resource or foster parent, Trainer/Coach/Technical assistance provider",
+    "year": "2024",
+    "quote": "It was interesting to hear how systems worked in different countries across the world. Hearing from people with experience in family regulation systems and the similarities in each experience was eye opening.",
+    "role": "Legal professional",
+    "organizationType": "State or county court/legal system",
+    "region": "United States",
+    "experience": "6-10 years",
+    "presenter": "Yes",
+    "source": "2024 event feedback.xlsx",
+    "isExcerpt": false,
+    "strength": "featured"
+  },
+  {
+    "year": "2022",
+    "quote": "I valued the international connection and the reminder that we were all more the same than different.",
+    "role": "Child welfare supervisor",
     "organizationType": "County/State/Provincial child welfare agency",
     "region": "United States",
     "experience": "11+ years",
     "presenter": "No",
-    "source": "2023 event feedback.xlsx",
+    "source": "2022 feedback.xlsx",
     "isExcerpt": false,
     "strength": "standard"
+  },
+  {
+    "year": "2025",
+    "quote": "I loved connecting with professionals across the globe!",
+    "role": "Trainer/Coach/Technical assistance provider",
+    "organizationType": "Private or community-based child welfare agency/organization",
+    "region": "United States",
+    "experience": "More than 20 years",
+    "presenter": "Yes",
+    "source": "2025 event feedback.xlsx",
+    "isExcerpt": false,
+    "strength": "short"
   },
   {
     "year": "2023",
@@ -97,73 +109,13 @@
   },
   {
     "year": "2024",
-    "quote": "It was interesting to hear how systems worked in different countries across the world. Hearing from people with experience in family regulation systems and the similarities in each experience was eye opening.",
-    "role": "Legal professional",
-    "organizationType": "State or county court/legal system",
-    "region": "United States",
-    "experience": "6-10 years",
-    "presenter": "Yes",
-    "source": "2024 event feedback.xlsx",
-    "isExcerpt": false,
-    "strength": "featured"
-  },
-  {
-    "year": "2024",
-    "quote": "I learned that the challenges I experienced in my work seemed to be the same all over the world.",
-    "role": "Family Team Meeting Facilitator",
-    "organizationType": "County/State/Provincial child welfare agency",
-    "region": "United States",
-    "experience": "11+ years",
-    "presenter": "No",
-    "source": "2024 event feedback.xlsx",
-    "isExcerpt": false,
-    "strength": "standard"
-  },
-  {
-    "year": "2024",
-    "quote": "I valued hearing from others around the world.",
-    "role": "FGC Coordinator",
-    "organizationType": "Behavioral/mental health service provider",
-    "region": "Canada",
-    "experience": "11+ years",
-    "presenter": "No",
-    "source": "2024 event feedback.xlsx",
-    "isExcerpt": false,
-    "strength": "short"
-  },
-  {
-    "year": "2024",
-    "quote": "There were so many positive experiences. Parents from around the world uniting was very impactful, and hearing from courageous women who made their way through what must have felt impossible was powerful.",
-    "role": "Administrator of community service agency",
+    "quote": "I valued listening to and learning from colleagues from different continents and organizations who were sharing similar ideas.",
+    "role": "Child welfare practitioner, Consultant, Policymaker, Trainer/Coach/Technical assistance provider",
     "organizationType": "Other (please specify)",
-    "region": "Canada",
+    "region": "Europe",
     "experience": "11+ years",
     "presenter": "No",
     "source": "2024 event feedback.xlsx",
-    "isExcerpt": false,
-    "strength": "featured"
-  },
-  {
-    "year": "2025",
-    "quote": "I loved connecting with professionals across the globe!",
-    "role": "Trainer/Coach/Technical assistance provider",
-    "organizationType": "Private or community-based child welfare agency/organization",
-    "region": "United States",
-    "experience": "More than 20 years",
-    "presenter": "Yes",
-    "source": "2025 event feedback.xlsx",
-    "isExcerpt": false,
-    "strength": "short"
-  },
-  {
-    "year": "2025",
-    "quote": "I valued being with people from all over the world in an accessible format.",
-    "role": "Child welfare practitioner",
-    "organizationType": "County/State/Provincial child welfare agency",
-    "region": "United States",
-    "experience": "More than 20 years",
-    "presenter": "No",
-    "source": "2025 event feedback.xlsx",
     "isExcerpt": false,
     "strength": "standard"
   },
@@ -180,14 +132,38 @@
     "strength": "standard"
   },
   {
-    "year": "2025",
-    "quote": "I valued being in fellowship with individuals across the globe.",
-    "role": "Child welfare administrator",
+    "year": "2023",
+    "quote": "I valued the speakers, the learning about Indigenous families, and the diversity of backgrounds and perspectives from across the world.",
+    "role": "Other (please specify)",
     "organizationType": "County/State/Provincial child welfare agency",
     "region": "United States",
-    "experience": "More than 20 years",
+    "experience": "11+ years",
     "presenter": "No",
-    "source": "2025 event feedback.xlsx",
+    "source": "2023 event feedback.xlsx",
+    "isExcerpt": false,
+    "strength": "standard"
+  },
+  {
+    "year": "2024",
+    "quote": "I learned that other countries may have the same issues, and that we can learn from each other to help keep kids safe and at home.",
+    "role": "Community and/or neighborhood leader",
+    "organizationType": "County/State/Provincial child welfare agency",
+    "region": "United States",
+    "experience": "11+ years",
+    "presenter": "No",
+    "source": "2024 event feedback.xlsx",
+    "isExcerpt": false,
+    "strength": "standard"
+  },
+  {
+    "year": "2024",
+    "quote": "I learned that the challenges I experienced in my work seemed to be the same all over the world.",
+    "role": "Family Team Meeting Facilitator",
+    "organizationType": "County/State/Provincial child welfare agency",
+    "region": "United States",
+    "experience": "11+ years",
+    "presenter": "No",
+    "source": "2024 event feedback.xlsx",
     "isExcerpt": false,
     "strength": "standard"
   },
@@ -205,10 +181,58 @@
   },
   {
     "year": "2022",
-    "quote": "I valued the international connection and the reminder that we were all more the same than different.",
-    "role": "Child welfare supervisor",
+    "quote": "I enjoy listening to people from across the world speak about their experiences in other countries. It is a wonderful way to connect.",
+    "role": "Child welfare practitioner",
     "organizationType": "County/State/Provincial child welfare agency",
     "region": "United States",
+    "experience": "Less than 1 year",
+    "presenter": "No",
+    "source": "2022 feedback.xlsx",
+    "isExcerpt": false,
+    "strength": "standard"
+  },
+  {
+    "year": "2025",
+    "quote": "I valued hearing how others were working in child welfare around the world, with similar challenges and very different responses.",
+    "role": "Child welfare administrator",
+    "organizationType": "County/State/Provincial child welfare agency",
+    "region": "United States",
+    "experience": "More than 20 years",
+    "presenter": "No",
+    "source": "2025 event feedback.xlsx",
+    "isExcerpt": false,
+    "strength": "standard"
+  },
+  {
+    "year": "2025",
+    "quote": "I valued being with people from all over the world in an accessible format.",
+    "role": "Child welfare practitioner",
+    "organizationType": "County/State/Provincial child welfare agency",
+    "region": "United States",
+    "experience": "More than 20 years",
+    "presenter": "No",
+    "source": "2025 event feedback.xlsx",
+    "isExcerpt": false,
+    "strength": "standard"
+  },
+  {
+    "year": "2024",
+    "quote": "I valued learning more about the efforts others were taking to produce genuine and positive change.",
+    "role": "Advocate, Consultant, Policymaker, Trainer/Coach/Technical assistance provider",
+    "organizationType": "Technical assistance provider",
+    "region": "United States",
+    "experience": "11+ years",
+    "presenter": "No",
+    "source": "2024 event feedback.xlsx",
+    "isExcerpt": false,
+    "strength": "standard"
+  },
+  {
+    "year": "2022",
+    "quote": "I enjoy meeting and hearing from people from all over the world and learning about their work.",
+    "role": "Child welfare administrator",
+    "organizationType": "County/State/Provincial child welfare agency",
+    "region": "Canada",
     "experience": "11+ years",
     "presenter": "No",
     "source": "2022 feedback.xlsx",
@@ -217,8 +241,8 @@
   },
   {
     "year": "2023",
-    "quote": "I valued the speakers, the learning about Indigenous families, and the diversity of backgrounds and perspectives from across the world.",
-    "role": "Other (please specify)",
+    "quote": "I had such fun and learned a great deal at this conference. The workshops were excellent, the presenters were professional and informed, and I loved the gathering overall.",
+    "role": "Child welfare practitioner, Resource or foster parent, Trainer/Coach/Technical assistance provider",
     "organizationType": "County/State/Provincial child welfare agency",
     "region": "United States",
     "experience": "11+ years",
@@ -240,6 +264,18 @@
     "strength": "standard"
   },
   {
+    "year": "2024",
+    "quote": "I valued hearing from others around the world.",
+    "role": "FGC Coordinator",
+    "organizationType": "Behavioral/mental health service provider",
+    "region": "Canada",
+    "experience": "11+ years",
+    "presenter": "No",
+    "source": "2024 event feedback.xlsx",
+    "isExcerpt": false,
+    "strength": "short"
+  },
+  {
     "year": "2023",
     "quote": "I valued the extraordinary sessions, perspectives, and people.",
     "role": "Trainer/Coach/Technical assistance provider",
@@ -252,54 +288,6 @@
     "strength": "short"
   },
   {
-    "year": "2024",
-    "quote": "I valued learning more about the efforts others were taking to produce genuine and positive change.",
-    "role": "Advocate, Consultant, Policymaker, Trainer/Coach/Technical assistance provider",
-    "organizationType": "Technical assistance provider",
-    "region": "United States",
-    "experience": "11+ years",
-    "presenter": "No",
-    "source": "2024 event feedback.xlsx",
-    "isExcerpt": false,
-    "strength": "standard"
-  },
-  {
-    "year": "2024",
-    "quote": "I valued listening to and learning from colleagues from different continents and organizations who were sharing similar ideas.",
-    "role": "Child welfare practitioner, Consultant, Policymaker, Trainer/Coach/Technical assistance provider",
-    "organizationType": "Other (please specify)",
-    "region": "Europe",
-    "experience": "11+ years",
-    "presenter": "No",
-    "source": "2024 event feedback.xlsx",
-    "isExcerpt": false,
-    "strength": "standard"
-  },
-  {
-    "year": "2024",
-    "quote": "I learned that other countries may have the same issues, and that we can learn from each other to help keep kids safe and at home.",
-    "role": "Community and/or neighborhood leader",
-    "organizationType": "County/State/Provincial child welfare agency",
-    "region": "United States",
-    "experience": "11+ years",
-    "presenter": "No",
-    "source": "2024 event feedback.xlsx",
-    "isExcerpt": false,
-    "strength": "standard"
-  },
-  {
-    "year": "2025",
-    "quote": "I valued hearing how others were working in child welfare around the world, with similar challenges and very different responses.",
-    "role": "Child welfare administrator",
-    "organizationType": "County/State/Provincial child welfare agency",
-    "region": "United States",
-    "experience": "More than 20 years",
-    "presenter": "No",
-    "source": "2025 event feedback.xlsx",
-    "isExcerpt": false,
-    "strength": "standard"
-  },
-  {
     "year": "2025",
     "quote": "I enjoyed learning how other countries handled child welfare concerns.",
     "role": "Child welfare supervisor",
@@ -310,5 +298,17 @@
     "source": "2025 event feedback.xlsx",
     "isExcerpt": false,
     "strength": "short"
+  },
+  {
+    "year": "2025",
+    "quote": "I valued being in fellowship with individuals across the globe.",
+    "role": "Child welfare administrator",
+    "organizationType": "County/State/Provincial child welfare agency",
+    "region": "United States",
+    "experience": "More than 20 years",
+    "presenter": "No",
+    "source": "2025 event feedback.xlsx",
+    "isExcerpt": false,
+    "strength": "standard"
   }
 ]
