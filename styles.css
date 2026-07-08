@@ -212,14 +212,19 @@ blockquote {
 
 .testimonial-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 22px;
+  grid-auto-flow: dense;
+  grid-auto-rows: 96px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 18px;
 }
 
 .testimonial-card {
   display: grid;
   gap: 22px;
   align-content: space-between;
+  grid-column: span 2;
+  grid-row: span 3;
+  min-height: 0;
   border: 1px solid rgba(18, 35, 69, 0.12);
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.76);
@@ -249,8 +254,21 @@ blockquote {
   background: rgba(190, 190, 123, 0.22);
 }
 
+.testimonial-card:nth-child(5n) {
+  border-radius: 34px 18px 28px 18px;
+}
+
+.testimonial-card:nth-child(6n) {
+  border-radius: 18px 32px 18px 28px;
+}
+
+.testimonial-card:nth-child(7n) {
+  grid-row: span 4;
+}
+
 .testimonial-card.is-featured {
-  grid-column: span 2;
+  grid-column: span 4;
+  grid-row: span 4;
   background:
     linear-gradient(135deg, rgba(254, 227, 183, 0.62), rgba(255, 255, 255, 0.82));
 }
@@ -262,6 +280,19 @@ blockquote {
 
 .testimonial-card.is-short p {
   font-size: 1.08rem;
+}
+
+.testimonial-card.is-short {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.testimonial-card.is-standard:nth-child(2n) {
+  grid-column: span 3;
+}
+
+.testimonial-card.is-standard:nth-child(5n) {
+  grid-row: span 4;
 }
 
 .testimonial-card p {
@@ -300,7 +331,18 @@ blockquote {
 
 @media (max-width: 980px) {
   .testimonial-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: 96px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .testimonial-card,
+  .testimonial-card.is-standard:nth-child(2n),
+  .testimonial-card.is-featured {
+    grid-column: span 2;
+  }
+
+  .testimonial-card.is-featured {
+    grid-row: span 4;
   }
 }
 
@@ -320,11 +362,15 @@ blockquote {
   }
 
   .testimonial-grid {
+    grid-auto-rows: auto;
     grid-template-columns: 1fr;
   }
 
+  .testimonial-card,
+  .testimonial-card.is-short,
   .testimonial-card.is-featured {
     grid-column: span 1;
+    grid-row: auto;
   }
 
   .spotlight-footer {
